@@ -1,0 +1,9 @@
+var TULCSS = "/SOGo.woa/WebServerResources/local/theme-tul.css";
+var head  = document.getElementsByTagName('head')[0];
+var link  = document.createElement('link');
+
+link.rel  = 'stylesheet';
+link.type = 'text/css';
+link.href = TULCSS;
+link.media = 'all';
+head.appendChild(link);
